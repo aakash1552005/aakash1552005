@@ -40,7 +40,7 @@
 |--------|-------------|------|
 | [🎭 Face Mask Detection](https://github.com/aakash1552005/Face-Mask-Detection-Using-CNN) | CNN-based real-time face mask detector | Python, CNN, OpenCV |
 | [📊 Superstore Dashboard](https://github.com/aakash1552005/Superstore_Sales_Dashboard) | Interactive sales analytics dashboard | Data Viz |
-| [🔬 Data Science](https://github.com/aakash1552005/Data_Science) | ML experiments & data analysis notebooks | Python, Jupyter |
+
 
 ---
 
