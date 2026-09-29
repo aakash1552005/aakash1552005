@@ -18,7 +18,7 @@
 &nbsp;&nbsp;
 [![LeetCode](https://img.shields.io/badge/LeetCode-0A101F?style=for-the-badge&logo=leetcode&logoColor=FFA116)](https://leetcode.com/u/Aakash_1528/)
 &nbsp;&nbsp;
-[![Portfolio](https://img.shields.io/badge/Portfolio-0A101F?style=for-the-badge&logo=vercel&logoColor=white)](https://aakash-clothing-website-t7c7.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-0A101F?style=for-the-badge&logo=vercel&logoColor=white)](https://aakash1552005.github.io/)
 
 </div>
 
