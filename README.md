@@ -1,11 +1,9 @@
 <div align="center">
 
-
-
 # Hi there, I'm Aakash S S 👋
 
-### 🤖 AI & Data Science Engineer · Full-Stack ML Builder · Open-Source Contributor
-**B.Tech CSE @ Vel Tech, Chennai**
+### 🤖 AI & Data Science Enthusiast · Full-Stack ML Builder · Open-Source Contributor
+**CSE Student @ Vel Tech, Chennai**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aakash-s-s-88b91a301)
 &nbsp;&nbsp;
@@ -21,11 +19,11 @@
 
 ## 🧑‍💻 About Me
 
-- 🎓 B.Tech CSE student at **Vel Tech**, Chennai — specializing in **AI, Machine Learning, and MLOps**.
-- 🌐 **Open Source Contributor** to top Python Data Science & MLOps repositories: **`sktime` (Merged 🎉)**, **`zenml`**, **`kedro`**, and **`evidently`**.
-- 🛰️ Built **SatQuery-AI** for **SIH 2026 (ISRO / SAC)** — multimodal Earth observation AI combining SAR-optical fusion with deterministic GIS verification.
-- 🚀 Shipped **Smart Child Nutrition Deficiency Tracking System** — built for state government welfare monitoring (10 districts), currently under **IEEE conference submission**.
-- 🧠 Comfortable across the full lifecycle: **data engineering → model training → MLOps governance → containerized deployment**.
+- 🎓 B.Tech CSE student at **Vel Tech**, Chennai — focused on **AI, Machine Learning & MLOps**
+- 🌐 **Open Source Contributor** to top Python libraries: **`sktime` (Merged 🎉)**, **`zenml`**, **`kedro`**, and **`evidently`**
+- 🛰️ Built **SatQuery-AI** for **SIH 2026 (ISRO / SAC)** — multimodal Earth observation AI with SAR-optical fusion & deterministic GIS verification
+- 🚀 Shipped full-stack ML system — **Smart Child Nutrition Deficiency Tracking System** for state gov (10 districts), currently under **IEEE conference submission**
+- 🧠 Comfortable across the full stack: **data → model → API → deployed product**
 - 📍 Based in Chennai, Tamil Nadu · 📬 `aakash1552005@gmail.com`
 
 ---
@@ -34,7 +32,7 @@
 
 | Project | Stars | Status | What I Built / Fixed |
 | :--- | :---: | :---: | :--- |
-| **[`sktime/sktime`](https://github.com/sktime/sktime)** | 3.5k+ ⭐ | **MERGED** 🎉 | [PR #11445](https://github.com/sktime/sktime/pull/11445): Modernized forecasting horizon syntax & model serialization. [PR #11448](https://github.com/sktime/sktime/pull/11448): Implemented foundation model `TimerForecaster` streaming context update logic. |
+| **[`sktime/sktime`](https://github.com/sktime/sktime)** | 3.5k+ ⭐ | **MERGED** 🎉 | [PR #11445](https://github.com/sktime/sktime/pull/11445): Modernized forecasting horizon syntax & model serialization. [PR #11448](https://github.com/sktime/sktime/pull/11448): Foundation model `TimerForecaster` streaming context update logic. |
 | **[`zenml-io/zenml`](https://github.com/zenml-io/zenml)** | 4.1k+ ⭐ | **Active PRs** | [PR #5346](https://github.com/zenml-io/zenml/pull/5346): Fixed step retry exponential backoff calculation. [PR #5347](https://github.com/zenml-io/zenml/pull/5347): Fixed remote S3/GCS cloudpickle materializer. [PR #5348](https://github.com/zenml-io/zenml/pull/5348): Fixed client active project global fallback. |
 | **[`kedro-org/kedro`](https://github.com/kedro-org/kedro)** | 9.3k+ ⭐ | **Active PR** | [PR #5811](https://github.com/kedro-org/kedro/pull/5811): Overhauled DaskRunner distributed cluster deployment guide and modern CLI params. |
 | **[`evidentlyai/evidently`](https://github.com/evidentlyai/evidently)** | 5.5k+ ⭐ | **Active PR** | [PR #1955](https://github.com/evidentlyai/evidently/pull/1955): Fixed Python 3.12+ regex escape warnings & NumPy 2.0+ compatibility layer. |
@@ -59,25 +57,20 @@
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-0A101F?style=for-the-badge&logo=xgboost&logoColor=EC4E20)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
 
@@ -85,9 +78,7 @@
 
 ---
 
-
-
-## 📈 GitHub Stats
+## 📊 GitHub Stats
 
 <div align="center">
 
