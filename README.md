@@ -1,134 +1,134 @@
 <div align="center">
 
-# Aakash S S
-### **Staff AI & MLOps Infrastructure Engineer · Core Open-Source Contributor**
-*Architecting deterministic data pipelines, distributed model serving, and autonomous agent runtimes.*
+<!-- Banner placeholder -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aakash1552005/aakash1552005/main/dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aakash1552005/aakash1552005/main/light.svg">
+  <img alt="Aakash S S" src="https://raw.githubusercontent.com/aakash1552005/aakash1552005/main/light.svg">
+</picture>
 
-[![Portfolio](https://img.shields.io/badge/Production_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://aakash1552005.github.io/)
-&nbsp;
+# Hi there, I'm Aakash S S 👋
+
+### 🤖 AI & Data Science Engineer · Full-Stack ML Builder · Open-Source Contributor
+**B.Tech CSE @ Vel Tech, Chennai**
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aakash-s-s-88b91a301)
-&nbsp;
-[![GitHub OSS](https://img.shields.io/badge/Upstream_OSS-181717?style=for-the-badge&logo=github&logoColor=white)](#-upstream-open-source-engineering)
-&nbsp;
-[![Email](https://img.shields.io/badge/Contact_Direct-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aakash1552005@gmail.com)
-
-```
-[SYSTEM INITIALIZED] · High-Throughput Inference · Deterministic MLOps · Zero-Shot Streaming · Geospatial SAR Fusion
-```
+&nbsp;&nbsp;
+[![Portfolio](https://img.shields.io/badge/Portfolio-0A101F?style=for-the-badge&logo=vercel&logoColor=white)](https://aakash1552005.github.io/)
+&nbsp;&nbsp;
+[![Gmail](https://img.shields.io/badge/Gmail-0A101F?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:aakash1552005@gmail.com)
+&nbsp;&nbsp;
+[![LeetCode](https://img.shields.io/badge/LeetCode-0A101F?style=for-the-badge&logo=leetcode&logoColor=FFA116)](https://leetcode.com/u/Aakash_1528/)
 
 </div>
 
 ---
 
-## 🏛️ Executive Summary
+## 🧑‍💻 About Me
 
-I engineer **fault-tolerant machine learning platforms and mission-critical distributed AI systems**. My focus centers on the boundary where raw research transitions into production infrastructure: closing the loop between data lineage, deterministic training, automated drift detection, and high-concurrency runtime serving.
-
-* **Upstream Open-Source Contributor**: Actively engineering bug fixes, core runtime logic, and framework stability in top global Python ecosystems (**`sktime`**, **`zenml`**, **`kedro`**, **`evidently`**).
-* **Geospatial & Defense Hackathon Lead (SIH 2026 / ISRO SAC)**: Engineered **SatQuery-AI**, an Earth Observation multimodal pipeline pairing SAR-optical image fusion with deterministic GIS verification on edge workers.
-* **Production Healthcare System**: Built and deployed a state-wide predictive healthcare analytics engine supporting 10 administrative districts (*under IEEE publication review*).
-
----
-
-## 🛠️ Upstream Open-Source Engineering
-
-Proven track record of navigating large-scale enterprise codebases, identifying architectural edge cases, and submitting production-grade patches upstream:
-
-```
-┌─────────────────┬──────────┬──────────────┬────────────────────────────────────────────────────────┐
-│ Repository      │ Stars    │ Status       │ Core Engineering Impact                                │
-├─────────────────┼──────────┼──────────────┼────────────────────────────────────────────────────────┤
-│ sktime/sktime   │ 3.5k+ ⭐ │ MERGED 🎉    │ PR #11445: Modernized core serialization & horizon API │
-│ sktime/sktime   │ 3.5k+ ⭐ │ In Review    │ PR #11448: Foundation model streaming context window   │
-│ zenml-io/zenml  │ 4.1k+ ⭐ │ CLA Pass ✅  │ PR #5346: Step retry exponential backoff loop fix      │
-│ zenml-io/zenml  │ 4.1k+ ⭐ │ CLA Pass ✅  │ PR #5347: Remote S3/GCS cloudpickle materializer fix   │
-│ zenml-io/zenml  │ 4.1k+ ⭐ │ CLA Pass ✅  │ PR #5348: Non-raising global active project fallback   │
-│ kedro-org/kedro │ 9.3k+ ⭐ │ In Review    │ PR #5811: DaskRunner distributed cluster recipe revamp │
-│ evidently       │ 5.5k+ ⭐ │ In Review    │ PR #1955: NumPy 2.0+ & Python 3.12 compatibility layer │
-└─────────────────┴──────────┴──────────────┴────────────────────────────────────────────────────────┘
-```
-
-<details>
-<summary><b>🔍 Expand Architectural PR Summaries</b></summary>
-
-* **`sktime` [PR #11448](https://github.com/sktime/sktime/pull/11448) — Streaming Context Memory Control**:
-  Engineered `_update` logic for zero-shot foundation model `TimerForecaster`, preventing unbounded history accumulation by trimming context to `context_length` with tokenized padding.
-* **`zenml` [PR #5348](https://github.com/zenml-io/zenml/pull/5348) — Resilient Configuration Fallbacks**:
-  Refactored `ClientConfiguration.active_project` from eager error-raising to optional evaluation, restoring graceful fallback to `GlobalConfiguration` across uninitialized workspaces.
-* **`kedro` [PR #5811](https://github.com/kedro-org/kedro/pull/5811) — Distributed Execution Modernization**:
-  Overhauled distributed `DaskRunner` orchestration, decoupling deprecated runner abstractions and establishing native `--runner-params` IPC configurations for remote compute clusters.
-* **`evidently` [PR #1955](https://github.com/evidentlyai/evidently/pull/1955) — Cross-Ecosystem Runtime Hardening**:
-  Resolved critical NumPy 2.0+ migration deprecations across data drift testing suites (586 unit tests verified).
-
-</details>
+- 🎓 B.Tech CSE student at **Vel Tech**, Chennai — specializing in **AI, Machine Learning, and MLOps**.
+- 🌐 **Open Source Contributor** to top Python Data Science & MLOps repositories: **`sktime` (Merged 🎉)**, **`zenml`**, **`kedro`**, and **`evidently`**.
+- 🛰️ Built **SatQuery-AI** for **SIH 2026 (ISRO / SAC)** — multimodal Earth observation AI combining SAR-optical fusion with deterministic GIS verification.
+- 🚀 Shipped **Smart Child Nutrition Deficiency Tracking System** — built for state government welfare monitoring (10 districts), currently under **IEEE conference submission**.
+- 🧠 Comfortable across the full lifecycle: **data engineering → model training → MLOps governance → containerized deployment**.
+- 📍 Based in Chennai, Tamil Nadu · 📬 `aakash1552005@gmail.com`
 
 ---
 
-## ⚡ Flagship Systems & Production Architectures
+## 🌐 Open Source Contributions
 
-### 1. 🛰️ [SatQuery-AI](https://github.com/aakash1552005/SatQuery-AI) — Verification-First Earth Observation AI
-*SIH 2026 Problem Statement for ISRO / Space Applications Centre (SAC)*
-* **Architecture**: Multimodal satellite intelligence engine fusing Synthetic Aperture Radar (SAR) with optical imagery.
-* **Core Innovation**: Eliminates LLM hallucination in remote sensing by enforcing a **deterministic GIS verification layer** before delivering analytical geospatial outputs.
-* **Deployment**: Sub-second serverless execution deployed on **Cloudflare Workers**.
-* [Live Production URL](https://satquery-ai.aakash1552005.workers.dev/) · [System Repository](https://github.com/aakash1552005/SatQuery-AI)
-
-### 2. ⚡ [telco-churn-mlops](https://github.com/aakash1552005/telco-churn-mlops) — Enterprise MLOps Pipeline Platform
-*Complete Continuous Training (CT) and Continuous Monitoring (CM) Architecture*
-* **Pipeline**: Automated data lineage ➔ MLflow model governance ➔ Containerized FastAPI serving ➔ Kubernetes deployment.
-* **Observability**: Real-time Prometheus metrics & Grafana dashboards paired with **Evidently AI** automated data/concept drift detection triggers.
-* [System Repository](https://github.com/aakash1552005/telco-churn-mlops)
-
-### 3. 🤖 [Autonomous-Data-Analyst](https://github.com/aakash1552005/Autonomous-Data-Analyst) — Multi-Agent Tabular Reasoning Engine
-*Self-Directing Data Science & Automated Benchmarking*
-* **Mechanism**: Multi-agent consensus architecture performing autonomous data hygiene, feature engineering, AutoML model tournaments, and grounded executive PDF report synthesis.
-* **Interface**: Interactive Streamlit engine backed by deterministic Python analytics sandboxes.
-* [Live Production URL](https://autonomous--data--analyst.streamlit.app/) · [System Repository](https://github.com/aakash1552005/Autonomous-Data-Analyst)
-
-### 4. 🧠 [universal-agent-skills](https://github.com/aakash1552005/universal-agent-skills) — Production AI Agent Runtimes
-*530+ Curated Engineering Specifications & Runtimes for AI Pair Programmers*
-* **Scope**: Industrial agent patterns covering GStack engineering, Strix AI security testing, Big Tech scalable topologies, and full-stack SaaS mastery across modern AI developer environments (Cursor, Claude Code, Antigravity).
-* [System Repository](https://github.com/aakash1552005/universal-agent-skills)
+| Project | Stars | Status | What I Built / Fixed |
+| :--- | :---: | :---: | :--- |
+| **[`sktime/sktime`](https://github.com/sktime/sktime)** | 3.5k+ ⭐ | **MERGED** 🎉 | [PR #11445](https://github.com/sktime/sktime/pull/11445): Modernized forecasting horizon syntax & model serialization. [PR #11448](https://github.com/sktime/sktime/pull/11448): Implemented foundation model `TimerForecaster` streaming context update logic. |
+| **[`zenml-io/zenml`](https://github.com/zenml-io/zenml)** | 4.1k+ ⭐ | **Active PRs** | [PR #5346](https://github.com/zenml-io/zenml/pull/5346): Fixed step retry exponential backoff calculation. [PR #5347](https://github.com/zenml-io/zenml/pull/5347): Fixed remote S3/GCS cloudpickle materializer. [PR #5348](https://github.com/zenml-io/zenml/pull/5348): Fixed client active project global fallback. |
+| **[`kedro-org/kedro`](https://github.com/kedro-org/kedro)** | 9.3k+ ⭐ | **Active PR** | [PR #5811](https://github.com/kedro-org/kedro/pull/5811): Overhauled DaskRunner distributed cluster deployment guide and modern CLI params. |
+| **[`evidentlyai/evidently`](https://github.com/evidentlyai/evidently)** | 5.5k+ ⭐ | **Active PR** | [PR #1955](https://github.com/evidentlyai/evidently/pull/1955): Fixed Python 3.12+ regex escape warnings & NumPy 2.0+ compatibility layer. |
 
 ---
 
-## 🔬 Core Competency & Architectural Matrix
+## 📌 Featured Projects
 
-```
-┌───────────────────────────┬────────────────────────────────────────────────────────────────────────┐
-│ Domain                    │ Technologies & Architectural Paradigms                                 │
-├───────────────────────────┼────────────────────────────────────────────────────────────────────────┤
-│ Languages                 │ Python (3.10–3.12), TypeScript, C++, Java, SQL, Shell                  │
-│ Machine Learning & CV     │ PyTorch, TensorFlow, Scikit-learn, XGBoost, LightGBM, OpenCV, Pandas   │
-│ MLOps & Observability     │ MLflow, Evidently AI, ZenML, Kedro, Prometheus, Grafana, DVC           │
-│ Orchestration & Cloud     │ Docker, Kubernetes, Cloudflare Workers, Supabase, Linux, CI/CD Actions │
-│ API & Distributed Serving │ FastAPI, Next.js 14, Flask, Asynchronous Microservices, Redis, IPC     │
-└───────────────────────────┴────────────────────────────────────────────────────────────────────────┘
-```
+| Project | Description | Tech | Links |
+| :--- | :--- | :--- | :---: |
+| 🛰️ **[SatQuery-AI](https://github.com/aakash1552005/SatQuery-AI)** | Verification-First Multimodal Earth Observation AI for SIH 2026 (ISRO / SAC) with SAR-optical fusion & deterministic GIS verification. | TypeScript, Cloudflare Workers, GIS, SAR | [Demo](https://satquery-ai.aakash1552005.workers.dev/) · [Code](https://github.com/aakash1552005/SatQuery-AI) |
+| ⚡ **[telco-churn-mlops](https://github.com/aakash1552005/telco-churn-mlops)** | Production MLOps platform with data lineage, MLflow governance, FastAPI, Kubernetes, Grafana, and Evidently AI drift detection. | Python, FastAPI, Docker, K8s, MLflow, Evidently | [Code](https://github.com/aakash1552005/telco-churn-mlops) |
+| 🤖 **[Autonomous-Data-Analyst](https://github.com/aakash1552005/Autonomous-Data-Analyst)** | Autonomous multi-agent tabular data analysis: data cleaning, ML model tournaments, business insights, and PDF/PowerPoint reporting. | Python, Streamlit, Multi-Agent, AutoML | [Demo](https://autonomous--data--analyst.streamlit.app/) · [Code](https://github.com/aakash1552005/Autonomous-Data-Analyst) |
+| 🍎 **[Smart Child Nutrition Tracking](https://github.com/aakash1552005/Smart-Child-Nutrition-Deficiency-Tracking-System)** | Full-stack healthcare ML platform for state gov (10 districts) — ensemble risk classification + multi-output deficiency detection. IEEE paper in progress. | Next.js 14, Supabase, Flask, XGBoost, LightGBM | [Demo](https://smart-child-nutrition-deficiency-tr.vercel.app) · [Code](https://github.com/aakash1552005/Smart-Child-Nutrition-Deficiency-Tracking-System) |
+| 🧠 **[universal-agent-skills](https://github.com/aakash1552005/universal-agent-skills)** | Unified library of 530+ production AI agent skills for modern runtimes (Claude Code, Cursor, Antigravity, GStack, SaaS). | TypeScript, AI Agents, Dev Tools | [Code](https://github.com/aakash1552005/universal-agent-skills) |
+| 🏨 **[RFID Hotel Asset Management](https://github.com/aakash1552005/RFID-Hotel-Asset-Management)** | Ultra low-cost IoT RFID anti-theft system for hotels with automated Google Sheets integration. | C++, IoT, RFID | [Code](https://github.com/aakash1552005/RFID-Hotel-Asset-Management) |
 
 ---
 
-## 📊 Live Telemetry & Engineering Activity
+## 🛠️ Tech Stack
 
 <div align="center">
 
-<img width="85%" src="https://streak-stats.demolab.com/?user=aakash1552005&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=238636&currStreakLabel=58A6FF&sideLabels=8B949E&currStreakNum=F0F6FC&sideNums=F0F6FC&dates=8B949E&titleColor=58A6FF" alt="GitHub Streak" />
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-0A101F?style=for-the-badge&logo=xgboost&logoColor=EC4E20)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
+
+</div>
+
+---
+
+## 📊 GitHub Contribution Graph
+
+<div align="center">
+
+<img width="100%" src="https://ghchart.rshah.org/2ea44f/aakash1552005" alt="Aakash's Green Box Contribution Graph" />
+
+</div>
+
+---
+
+## 📈 GitHub Stats
+
+<div align="center">
+
+<img width="100%" src="https://streak-stats.demolab.com/?user=aakash1552005&hide_border=true&background=0A101F&stroke=22D3EE&ring=A78BFA&fire=10B981&currStreakLabel=22D3EE&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B&titleColor=22D3EE&card_width=1180" alt="streak stats" />
 
 <br/><br/>
 
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=aakash1552005&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&title_color=58A6FF&icon_color=238636&text_color=C9D1D9&bg_color=0D1117" alt="GitHub Metrics" />
-<img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aakash1552005&layout=compact&langs_count=6&hide_border=true&title_color=58A6FF&text_color=C9D1D9&bg_color=0D1117" alt="Language Distribution" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=aakash1552005&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&title_color=22D3EE&icon_color=A78BFA&text_color=94A3B8&bg_color=0A101F&card_width=500" alt="stats" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aakash1552005&layout=compact&langs_count=8&hide_border=true&title_color=22D3EE&text_color=94A3B8&bg_color=0A101F&card_width=500" alt="top langs" />
 
+</div>
+
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aakash1552005/aakash1552005/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aakash1552005/aakash1552005/output/github-snake.svg" />
+  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/aakash1552005/aakash1552005/output/github-snake.svg" />
+</picture>
 </div>
 
 ---
 
 <div align="center">
 
-```
-"Reliability is not a feature — it is the prerequisite of intelligence."
-```
-
-**Direct Inquiries:** [LinkedIn](https://www.linkedin.com/in/aakash-s-s-88b91a301) · [Email](mailto:aakash1552005@gmail.com) · [Portfolio](https://aakash1552005.github.io/)
+⭐ *"Turning data into decisions, one model at a time."*
 
 </div>
