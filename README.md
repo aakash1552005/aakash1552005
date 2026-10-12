@@ -1,11 +1,6 @@
 <div align="center">
 
-<!-- Banner placeholder -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aakash1552005/aakash1552005/main/dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aakash1552005/aakash1552005/main/light.svg">
-  <img alt="Aakash S S" src="https://raw.githubusercontent.com/aakash1552005/aakash1552005/main/light.svg">
-</picture>
+
 
 # Hi there, I'm Aakash S S 👋
 
@@ -90,15 +85,7 @@
 
 ---
 
-## 📊 GitHub Contribution Graph
 
-<div align="center">
-
-<img width="100%" src="https://ghchart.rshah.org/2ea44f/aakash1552005" alt="Aakash's Green Box Contribution Graph" />
-
-</div>
-
----
 
 ## 📈 GitHub Stats
 
