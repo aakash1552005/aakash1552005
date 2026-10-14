@@ -20,7 +20,8 @@
 ## 🧑‍💻 About Me
 
 - 🎓 B.Tech CSE student at **Vel Tech**, Chennai — focused on **AI, Machine Learning & MLOps**
-- 🌐 **Open Source Contributor** to top Python libraries: **`sktime` (Merged 🎉)**, **`zenml`**, **`kedro`**, and **`evidently`**
+- 📼 Creator & Maintainer of **[`rerunner`](https://github.com/aakash1552005/rerunner)** — Deterministic flight recorder, $0 CI replay engine & time-travel debugger for AI agents
+- 🌐 **Open Source Contributor** to top Python libraries: **`sktime` (Merged 🎉)**, **`kedro-plugins` (Merged 🎉)**, **`cleanlab`**, **`zenml`**, **`kedro`**, and **`evidently`**
 - 🛰️ Built **SatQuery-AI** for **SIH 2026 (ISRO / SAC)** — multimodal Earth observation AI with SAR-optical fusion & deterministic GIS verification
 - 🚀 Shipped full-stack ML system — **Smart Child Nutrition Deficiency Tracking System** for state gov (10 districts), currently under **IEEE conference submission**
 - 🧠 Comfortable across the full stack: **data → model → API → deployed product**
@@ -33,22 +34,11 @@
 | Project | Stars | Status | What I Built / Fixed |
 | :--- | :---: | :---: | :--- |
 | **[`sktime/sktime`](https://github.com/sktime/sktime)** | 3.5k+ ⭐ | **MERGED** 🎉 | [PR #11445](https://github.com/sktime/sktime/pull/11445): Modernized forecasting horizon syntax & model serialization. [PR #11448](https://github.com/sktime/sktime/pull/11448): Foundation model `TimerForecaster` streaming context update logic. |
+| **[`kedro-org/kedro-plugins`](https://github.com/kedro-org/kedro-plugins)** | 9.3k+ ⭐ | **2 MERGED 🎉 · 6 Active** | [PR #1536](https://github.com/kedro-org/kedro-plugins/pull/1536) & [PR #1538](https://github.com/kedro-org/kedro-plugins/pull/1538): **MERGED** into main. [PRs #1532-#1539](https://github.com/kedro-org/kedro-plugins/pulls/aakash1552005): Datasets, telemetry, serialization, visualization, and documentation across the Kedro ecosystem. |
+| **[`cleanlab/cleanlab`](https://github.com/cleanlab/cleanlab)** | 10k+ ⭐ | **Active PRs** | [PR #1343](https://github.com/cleanlab/cleanlab/pull/1343): Token classification bounds check fix (#1338). [PR #1344](https://github.com/cleanlab/cleanlab/pull/1344): Empty bounding box support & NumPy 2.0 `np.isin` migration (#1234). |
 | **[`zenml-io/zenml`](https://github.com/zenml-io/zenml)** | 4.1k+ ⭐ | **Active PRs** | [PR #5346](https://github.com/zenml-io/zenml/pull/5346): Fixed step retry exponential backoff calculation. [PR #5347](https://github.com/zenml-io/zenml/pull/5347): Fixed remote S3/GCS cloudpickle materializer. [PR #5348](https://github.com/zenml-io/zenml/pull/5348): Fixed client active project global fallback. |
 | **[`kedro-org/kedro`](https://github.com/kedro-org/kedro)** | 9.3k+ ⭐ | **Active PR** | [PR #5811](https://github.com/kedro-org/kedro/pull/5811): Overhauled DaskRunner distributed cluster deployment guide and modern CLI params. |
 | **[`evidentlyai/evidently`](https://github.com/evidentlyai/evidently)** | 5.5k+ ⭐ | **Active PR** | [PR #1955](https://github.com/evidentlyai/evidently/pull/1955): Fixed Python 3.12+ regex escape warnings & NumPy 2.0+ compatibility layer. |
-
----
-
-## 📌 Featured Projects
-
-| Project | Description | Tech | Links |
-| :--- | :--- | :--- | :---: |
-| 🛰️ **[SatQuery-AI](https://github.com/aakash1552005/SatQuery-AI)** | Verification-First Multimodal Earth Observation AI for SIH 2026 (ISRO / SAC) with SAR-optical fusion & deterministic GIS verification. | TypeScript, Cloudflare Workers, GIS, SAR | [Demo](https://satquery-ai.aakash1552005.workers.dev/) · [Code](https://github.com/aakash1552005/SatQuery-AI) |
-| ⚡ **[telco-churn-mlops](https://github.com/aakash1552005/telco-churn-mlops)** | Production MLOps platform with data lineage, MLflow governance, FastAPI, Kubernetes, Grafana, and Evidently AI drift detection. | Python, FastAPI, Docker, K8s, MLflow, Evidently | [Code](https://github.com/aakash1552005/telco-churn-mlops) |
-| 🤖 **[Autonomous-Data-Analyst](https://github.com/aakash1552005/Autonomous-Data-Analyst)** | Autonomous multi-agent tabular data analysis: data cleaning, ML model tournaments, business insights, and PDF/PowerPoint reporting. | Python, Streamlit, Multi-Agent, AutoML | [Demo](https://autonomous--data--analyst.streamlit.app/) · [Code](https://github.com/aakash1552005/Autonomous-Data-Analyst) |
-| 🍎 **[Smart Child Nutrition Tracking](https://github.com/aakash1552005/Smart-Child-Nutrition-Deficiency-Tracking-System)** | Full-stack healthcare ML platform for state gov (10 districts) — ensemble risk classification + multi-output deficiency detection. IEEE paper in progress. | Next.js 14, Supabase, Flask, XGBoost, LightGBM | [Demo](https://smart-child-nutrition-deficiency-tr.vercel.app) · [Code](https://github.com/aakash1552005/Smart-Child-Nutrition-Deficiency-Tracking-System) |
-| 🧠 **[universal-agent-skills](https://github.com/aakash1552005/universal-agent-skills)** | Unified library of 530+ production AI agent skills for modern runtimes (Claude Code, Cursor, Antigravity, GStack, SaaS). | TypeScript, AI Agents, Dev Tools | [Code](https://github.com/aakash1552005/universal-agent-skills) |
-| 🏨 **[RFID Hotel Asset Management](https://github.com/aakash1552005/RFID-Hotel-Asset-Management)** | Ultra low-cost IoT RFID anti-theft system for hotels with automated Google Sheets integration. | C++, IoT, RFID | [Code](https://github.com/aakash1552005/RFID-Hotel-Asset-Management) |
 
 ---
 
@@ -89,18 +79,6 @@
 <img width="49%" src="https://github-readme-stats.vercel.app/api?username=aakash1552005&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&title_color=22D3EE&icon_color=A78BFA&text_color=94A3B8&bg_color=0A101F&card_width=500" alt="stats" />
 <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aakash1552005&layout=compact&langs_count=8&hide_border=true&title_color=22D3EE&text_color=94A3B8&bg_color=0A101F&card_width=500" alt="top langs" />
 
-</div>
-
----
-
-## 🐍 Contribution Snake
-
-<div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aakash1552005/aakash1552005/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aakash1552005/aakash1552005/output/github-snake.svg" />
-  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/aakash1552005/aakash1552005/output/github-snake.svg" />
-</picture>
 </div>
 
 ---
