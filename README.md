@@ -23,7 +23,7 @@
 - 🌐 **Open Source Contributor**:
   - **`kedro-plugins`**: 3 merged PRs ([#1536](https://github.com/kedro-org/kedro-plugins/pull/1536), [#1538](https://github.com/kedro-org/kedro-plugins/pull/1538), [#1543](https://github.com/kedro-org/kedro-plugins/pull/1543)) improving dataset serialization, test coverage, and documentation.
   - **`sktime`**: Merged PR [#11445](https://github.com/sktime/sktime/pull/11445) (forecasting horizon API modernization); authored PR [#11448](https://github.com/sktime/sktime/pull/11448) whose foundation model streaming update pattern was adopted across 6 models (Issue #11245).
-  - **`cleanlab`**, **`zenml`**, **`kedro`**, and **`evidently`**: Actively fixing NumPy 2.0 / Python 3.12 compatibility, retry backoffs, and distributed runner pipelines.
+  - **`cleanlab`**, **`litellm`**, and **`zenml`**: Actively fixing NumPy 2.0 / Python 3.12 compatibility, retry backoffs, and distributed runner pipelines.
 - 🛰️ Built **SatQuery-AI** for **SIH 2026 (ISRO / SAC)** — multimodal Earth observation AI integrating SAR-optical fusion and deterministic GIS verification.
 - 🚀 Engineered the **Smart Child Nutrition Deficiency Tracking System**, deployed across 10 districts (under review for IEEE conference publication).
 - 📍 Chennai, India · 📬 `aakash1552005@gmail.com`
@@ -62,8 +62,6 @@ pip install rerunner
 | **[`sktime/sktime`](https://github.com/sktime/sktime)** | 3.5k+ ⭐ | **1 Merged · Blueprint Adopted** | • [PR #11445](https://github.com/sktime/sktime/pull/11445): Merged into `main` (forecasting horizon API modernization).<br/>• [PR #11617](https://github.com/sktime/sktime/pull/11617): Added panel and multi-instance data support for HampelDetector (Issue #11615). |
 | **[`cleanlab/cleanlab`](https://github.com/cleanlab/cleanlab)** | 10k+ ⭐ | **Active PRs** | • [PR #1351](https://github.com/cleanlab/cleanlab/pull/1351): Dynamic and forward-compatible issue type argument mapping across IssueManagers (Issue #995).<br/>• [PR #1344](https://github.com/cleanlab/cleanlab/pull/1344): Added bounding box normalization and migrated to NumPy 2.0 `np.isin`. |
 | **[`zenml-io/zenml`](https://github.com/zenml-io/zenml)** | 4.1k+ ⭐ | **Active PRs** | • [PR #5346](https://github.com/zenml-io/zenml/pull/5346): Fixed step retry exponential backoff calculation.<br/>• [PR #5347](https://github.com/zenml-io/zenml/pull/5347): Fixed remote S3/GCS cloudpickle materializer check.<br/>• [PR #5348](https://github.com/zenml-io/zenml/pull/5348): Implemented global active project fallback. |
-| **[`kedro-org/kedro`](https://github.com/kedro-org/kedro)** | 9.3k+ ⭐ | **Under Review** | • [PR #5811](https://github.com/kedro-org/kedro/pull/5811): Modernized `DaskRunner` distributed deployment guide and native CLI runner parameters. |
-| **[`evidentlyai/evidently`](https://github.com/evidentlyai/evidently)** | 5.5k+ ⭐ | **Active PR** | • [PR #1955](https://github.com/evidentlyai/evidently/pull/1955): Resolved Python 3.12+ regex syntax warnings and NumPy 2.0 compatibility layer. |
 
 ---
 
@@ -94,11 +92,11 @@ pip install rerunner
 
 </div>
 
---- 
+---
 
 <div align="center">
 
 ⭐ *"Turning data into decisions, one model at a time."*
-   
-</div> 
+
+</div>
 
