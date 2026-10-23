@@ -94,11 +94,11 @@ pip install rerunner
 
 </div>
 
----
+--- 
 
 <div align="center">
 
 ⭐ *"Turning data into decisions, one model at a time."*
-
-</div>
+   
+</div> 
 
