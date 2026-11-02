@@ -28,7 +28,6 @@
   - **`zenml`**: Authored PR [#5394](https://github.com/zenml-io/zenml/pull/5394) (deployment filter #5274), PR [#5346](https://github.com/zenml-io/zenml/pull/5346), PR [#5347](https://github.com/zenml-io/zenml/pull/5347), PR [#5348](https://github.com/zenml-io/zenml/pull/5348).
   - **`litellm`**: PR [#46900](https://github.com/BerriAI/litellm/pull/46900) (fallback team-member budget enforcement #46874, endorsed by `@Jahanzeb-git`), PR [#48008](https://github.com/BerriAI/litellm/pull/48008), PR [#48014](https://github.com/BerriAI/litellm/pull/48014).
   - **`HyperKernels`** & **`cleanlab`**: CUDA kernel CI tooling (PR [#1](https://github.com/BlubridgeAI/HyperKernels/pull/1)) and object detection empty labels (PR [#1344](https://github.com/cleanlab/cleanlab/pull/1344)).
-- 🏗️ Engineered **[InfraPulse AI](https://github.com/ibharath-ofcl/InfraPulse-Vendor-Work-Allocation)** — Enterprise civil infrastructure platform for PIN-code work allocation, sequential DAG dependency enforcement, automated computer vision QA evidence verification, and multi-role governance.
 - 🛰️ Built **SatQuery-AI** for **SIH 2026 (ISRO / SAC)** — multimodal Earth observation AI integrating SAR-optical fusion and deterministic GIS verification.
 - 🚀 Engineered the **Smart Child Nutrition Deficiency Tracking System**, deployed across 10 districts (under review for IEEE conference publication).
 - 📍 Chennai, India · 📬 `aakash1552005@gmail.com`
