@@ -64,7 +64,6 @@ pip install rerunner
 ## 🌐 Open Source Contributions
 
 | Project | Stars | Status | What I Built / Fixed |
-
 | :--- | :---: | :---: | :--- |
 | **[`huggingface/transformers`](https://github.com/huggingface/transformers)** | 140k+ ⭐ | **Active PR** | • [PR #49969](https://github.com/huggingface/transformers/pull/49969): Fixed NumPy image bounding-box normalization coordinate inversion and input mutation in GOT-OCR2 (#49902). |
 | **[`huggingface/accelerate`](https://github.com/huggingface/accelerate)** | 10k+ ⭐ | **Active PR** | • [PR #4455](https://github.com/huggingface/accelerate/pull/4455): Fixed Windows checkpoint path sorting regex in `save_state` & `load_state` when parent directories contain digits (#4454). |
