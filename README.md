@@ -37,25 +37,27 @@
 
 [![GitHub Marketplace](https://img.shields.io/badge/Marketplace-Rerunner_CI_Action-blue?style=flat-square&logo=github-actions&logoColor=white)](https://github.com/marketplace/actions/rerunner-ci-replay-cost-reporter)
 [![PyPI Version](https://img.shields.io/pypi/v/rerunner?style=flat-square&color=blue&logo=pypi&logoColor=white)](https://pypi.org/project/rerunner/)
-[![Release](https://img.shields.io/badge/release-v0.3.1-blue.svg?style=flat-square)](https://github.com/aakash1552005/rerunner/releases/tag/v0.3.1)
+[![Release](https://img.shields.io/github/v/release/aakash1552005/rerunner?style=flat-square&color=blue)](https://github.com/aakash1552005/rerunner/releases)
+[![Docs](https://img.shields.io/badge/docs-mkdocs--material-526CFE?style=flat-square)](https://aakash1552005.github.io/rerunner/)
 [![License](https://img.shields.io/github/license/aakash1552005/rerunner?style=flat-square&color=green)](https://github.com/aakash1552005/rerunner/blob/main/LICENSE)
 [![Python Versions](https://img.shields.io/pypi/pyversions/rerunner?style=flat-square)](https://pypi.org/project/rerunner/)
 
 </div>
 
-> **[rerunner](https://github.com/aakash1552005/rerunner)** records external AI and agent interactions (Anthropic Claude, OpenAI, Cohere, AWS Bedrock, Google GenAI, AutoGen, Semantic Kernel, LangGraph, Model Context Protocol) into deterministic cassettes, enabling fast, offline, zero-token-cost CI test execution and time-travel debugging.
+> **[rerunner](https://github.com/aakash1552005/rerunner)** records external AI and agent interactions (Anthropic Claude, OpenAI, DeepSeek, Cohere, AWS Bedrock, Google GenAI, AutoGen, Semantic Kernel, LangGraph, Model Context Protocol) into deterministic cassettes, enabling fast, offline, zero-token-cost CI test execution and time-travel debugging.
 
+- 🧠 **AI-Agent-Native MCP (`rerunner mcp` & `rerunner setup`)**: Built-in stdio MCP server, `SKILL.md`, and 1-command setup for Claude Code, Cursor, and Codex.
+- 🌐 **Cross-Language Proxy (`rerunner serve`)**: Deterministic HTTP/SSE replay for TypeScript/Node, Go, Rust, and browser agents, plus zero-touch `httpx`, `requests`, and `aiohttp` interception.
+- 🧪 **Parallel Test Execution (`pytest-xdist`)**: Automatic worker shard isolation (`gw0`, `gw1`) and cryptographic SHA-256 sessionfinish merge hook.
+- 💰 **Model-Aware Cost & Prompt Caching**: Detailed USD/token estimation with automatic Anthropic prompt-caching discount tracking (write 1.25× / read 0.10×) via `rerunner cost --json`.
 - 🖥️ **Interactive Terminal Flight Deck (`rerunner tui`)**: Visually scrub and inspect multi-turn agent execution steps, tokens, and cryptographic security audits in the terminal.
-- 🤖 **Model Context Protocol (MCP) Replay**: Deterministically record and replay MCP tool invocations without running local servers.
 - ⚡ **Streaming SSE Replayer**: Native token-by-token replay for `text/event-stream` chunks with simulated network latency.
-- ☁️ **Multi-Cloud Storage**: First-class support for Local, AWS S3 (`s3://`), Google Cloud Storage (`gs://`), and Microsoft Azure Blob Storage (`az://`).
-- 🛡️ **Enterprise PII & Secret Redaction**: Pluggable redaction pipelines (Microsoft Presidio & Sether) with custom environment pattern support (`RERUNNER_REDACT_PATTERNS`).
-- 📄 **Interactive HTML & JSON Savings Reports**: Export standalone HTML reports (`rerunner cost --export-html`) and machine-readable JSON metrics (`rerunner stats --json`) for CI dashboards.
-- 🔒 **Cassette Security Pre-Commit Hook**: Official `rerunner-doctor` git hook rejecting broken HMAC hash chains, malformed frames, and unredacted secrets before commits land.
-- 📊 **Official GitHub Action & OTel Export**: 3-line CI action rendering automatic token savings reports directly in `$GITHUB_STEP_SUMMARY`.
+- ☁️ **Multi-Cloud & Cached Storage**: First-class support for Local, AWS S3 (`s3://`), Google Cloud Storage (`gs://`), and Microsoft Azure Blob Storage (`az://`) with disk caching (`CachedRemoteBackend`).
+- 🛡️ **Enterprise PII, Pseudonymization & Asymmetric Integrity**: Format-preserving `Pseudonymizer`, Presidio & Sether redaction, SHA-256 hash chaining, HMAC-SHA256, and Ed25519 + Merkle root signing (`rerunner keygen` / `rerunner sign`).
+- 📄 **HTML Flight Trace & Sticky PR Cost Bot**: Export zero-CDN interactive traces (`rerunner inspect --export-html`) and post automated model-aware USD/token savings on GitHub PRs.
 
 ```bash
-pip install rerunner
+pip install rerunner && rerunner setup --clients claude,cursor,codex
 ```
 
 ---
