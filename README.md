@@ -51,7 +51,7 @@
 - 🌐 **Cross-Language Proxy (`rerunner serve`)**: Deterministic HTTP/SSE replay with configurable CORS headers for TypeScript/Node, Go, Rust, and browser agents, plus zero-touch `httpx`, `requests`, and `aiohttp` interception.
 - 🧪 **Parallel Test Execution (`pytest-xdist`)**: Automatic worker shard isolation (`gw0`, `gw1`) and cryptographic SHA-256 sessionfinish merge hook.
 - 💰 **Model-Aware Cost & Prompt Caching**: Detailed USD/token estimation with automatic Anthropic prompt-caching discount tracking (write 1.25× / read 0.10×) via `rerunner cost --json`.
-- 🖥️ **Interactive Terminal Flight Deck (`rerunner tui`)**: Visually scrub and inspect multi-turn agent execution steps, tokens, and cryptographic security audits in the terminal.
+- 🖥️ **Interactive Terminal Flight Deck (`rerunner tui` & `rerunner doctor`)**: Visually scrub and inspect multi-turn agent execution steps, tokens, and cryptographic security audits in the terminal, or run concise aggregate CI cassette health checks via `rerunner doctor --summary-only`.
 - ⚡ **Streaming SSE Replayer**: Native token-by-token replay for `text/event-stream` chunks with simulated network latency.
 - ☁️ **Multi-Cloud & Cached Storage**: First-class support for Local, AWS S3 (`s3://`), Google Cloud Storage (`gs://`), and Microsoft Azure Blob Storage (`az://`) with disk caching (`CachedRemoteBackend`).
 - 🛡️ **Enterprise PII, Pseudonymization & Asymmetric Integrity**: Format-preserving `Pseudonymizer`, Presidio & Sether redaction, SHA-256 hash chaining, HMAC-SHA256, `--verify-all` strict tamper audits, and Ed25519 + Merkle root signing (`rerunner keygen` / `rerunner sign`).
